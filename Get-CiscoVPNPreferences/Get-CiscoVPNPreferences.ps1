@@ -3,18 +3,15 @@
         ===========================================================================
          Created on:   	4/27/2022
          Created by:   	Kiefer Easton
-         Filename:     	Get-WirelessProfiles.ps1
+         Filename:     	Get-CiscoVPNPreferences.ps1
         ===========================================================================
     .SYNOPSIS
         PowerShell scanner for PDQ Inventory which returns Cisco Secure Client preferences
     .DESCRIPTION
         This script is a PowerShell scanner for PDQ Inventory which scans for an XML preferences file in:
 		'$env:LOCALAPPDATA\Cisco\Cisco Secure Client\VPN' and returns the XML node data to PDQ Inventory.
-    .Parameter ProfileNames
-        The ProfileNames parameter accepts one or more profile names as input. You can pass a single profile name or an array of names.
-        Example: 'Profile1' or @('Profile1', 'Profile2')
     .EXAMPLE
-        .\Get-WirelessProfiles.ps1
+        .\Get-CiscoVPNPreferences.ps1
     .INPUTS
         None.
     .OUTPUTS
