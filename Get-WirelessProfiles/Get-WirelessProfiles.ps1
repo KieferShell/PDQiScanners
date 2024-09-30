@@ -8,7 +8,7 @@
 	.SYNOPSIS
         PowerShell scanner for PDQ Inventory which returns wireless profile details
     .DESCRIPTION
-		This script is a PowerShell scanner for PDQ Inventory which examines supplied wireless profiles on workstations including these details:
+        This script is a PowerShell scanner for PDQ Inventory which examines supplied wireless profiles on workstations including these details:
         'Profile Name','SSID','Connection mode','Authentication','Encryption', and '802.1X'/'EAP' details (OneX)
     .Parameter ProfileNames
         The ProfileNames parameter accepts one or more profile names as input. You can pass a single profile name or an array of names.
