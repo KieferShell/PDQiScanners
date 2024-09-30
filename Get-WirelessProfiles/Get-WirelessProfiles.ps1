@@ -1,11 +1,11 @@
 <#	
-	.NOTES
-	===========================================================================
-	 Created on:   	10/9/2023
-	 Created by:   	Kiefer Easton
-	 Filename:     	Get-WirelessProfiles.ps1
-	===========================================================================
-	.SYNOPSIS
+    .NOTES
+        ===========================================================================
+         Created on:   	10/9/2023
+         Created by:   	Kiefer Easton
+         Filename:     	Get-WirelessProfiles.ps1
+        ===========================================================================
+    .SYNOPSIS
         PowerShell scanner for PDQ Inventory which returns wireless profile details
     .DESCRIPTION
         This script is a PowerShell scanner for PDQ Inventory which examines supplied wireless profiles on workstations including these details:
